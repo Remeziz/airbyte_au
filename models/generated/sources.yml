@@ -1,0 +1,12 @@
+version: 2
+sources:
+- name: main
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_au_get_f__y_last_update_general
+  - name: _airbyte_raw_au_get_sales_and_traffic_report
+  - name: _airbyte_raw_au_listfinancialevents
+  - name: _airbyte_raw_au_orders
